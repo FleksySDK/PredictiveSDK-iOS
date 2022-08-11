@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "FleksyCoreSDK",
     platforms: [
-        .iOS(.v12)
+        .iOS(.v13)
     ],
     products: [
         .library(
@@ -15,7 +15,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/FleksySDK/FleksyEngine-iOS",
-            exact: "3.5.18"
+            exact: "3.5.21"
         ),
         .package(
             url: "https://github.com/FleksySDK/iOS-CoreServices",
@@ -33,8 +33,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "FleksyLibModule",
-            url: "https://spm.fleksy.com/FleksyLibModule/v1.0.0/FleksyLibModule-1.0.0.xcframework.zip",
-            checksum: "1f77bef6b56aa01a39361b369f4a739c0c923201abbf4efb677ddfb910316e8f"
+            url: "https://spm.fleksy.com/FleksyLibModule/v1.1.0/FleksyLibModule-1.1.0.xcframework.zip",
+            checksum: "9fb31453a8f27619ad7ce8c4c5ef3e22aa0e5e9d9dd01951daa55b3f356649e1"
         )
     ]
 )
