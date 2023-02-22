@@ -1,4 +1,4 @@
-// swift-tools-version:5.6
+// swift-tools-version:5.7
 
 import PackageDescription
 
@@ -15,11 +15,11 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/FleksySDK/FleksyEngine-iOS",
-            exact: "3.5.26"
+            exact: "3.9.9"
         ),
         .package(
             url: "https://github.com/FleksySDK/iOS-CoreServices",
-            exact: "1.3.0"
+            exact: "1.5.0"
         ),
     ],
     targets: [
@@ -33,8 +33,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "FleksyLibModule",
-            url: "https://spm.fleksy.com/FleksyLibModule/v1.1.4/FleksyLibModule-1.1.4.xcframework.zip",
-            checksum: "be51a68b510203757f1b0b7c831a8f600acf30bfec79b932633d7fd72f142bcd"
+            url: "https://spm.fleksy.com/FleksyLibModule/v1.2.0/FleksyLibModule-1.2.0.xcframework.zip",
+            checksum: "a6ebc285f083dd07fb9528fbf062043e0389a7b4b5ebab2dbfc8c1c699431cf9"
         )
     ]
 )
