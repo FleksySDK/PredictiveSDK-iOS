@@ -5,7 +5,8 @@ import PackageDescription
 let package = Package(
     name: "FleksyCoreSDK",
     platforms: [
-        .iOS(.v12)
+        .iOS(.v12),
+        .watchOS(.v8)
     ],
     products: [
         .library(
