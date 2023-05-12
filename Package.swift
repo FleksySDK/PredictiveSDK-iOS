@@ -6,7 +6,8 @@ let package = Package(
     name: "FleksyCoreSDK",
     platforms: [
         .iOS(.v12),
-        .watchOS(.v8)
+        .watchOS(.v8),
+        .macCatalyst(.v15)
     ],
     products: [
         .library(
@@ -16,11 +17,11 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/FleksySDK/FleksyEngine-iOS",
-            exact: "3.9.9"
+            exact: "3.12.1"
         ),
         .package(
             url: "https://github.com/FleksySDK/iOS-CoreServices",
-            exact: "1.5.2"
+            exact: "1.6.0"
         ),
     ],
     targets: [
@@ -34,8 +35,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "FleksyLibModule",
-            url: "https://spm.fleksy.com/FleksyLibModule/v1.2.1/FleksyLibModule-1.2.1.xcframework.zip",
-            checksum: "7d1ba5fb2b5b2965cd4d1be792068a4e54f5948550a2a293c28f728f48530859"
+            url: "https://spm.fleksy.com/FleksyLibModule/v1.3.0/FleksyLibModule-1.3.0.xcframework.zip",
+            checksum: "93854aa40291e8bfe99afac81dfa061d9337a9c4cc2c0dc40975f26646ba9cc5"
         )
     ]
 )
