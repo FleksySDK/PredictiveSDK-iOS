@@ -35,8 +35,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "FleksyLibModule",
-            url: "https://spm.fleksy.com/FleksyLibModule/v1.3.1/FleksyLibModule-1.3.1.xcframework.zip",
-            checksum: "d62eb337b6c3347afc7642e1e7d9039e85e45ad407bcddbe045f8ebdf8ebea0c"
+            url: "https://spm.fleksy.com/FleksyLibModule/v1.3.2/FleksyLibModule-1.3.2.xcframework.zip",
+            checksum: "735ba0ca88df974dd46aaa6e59b0a2c8c71e7f3e926e903e9feffef4070ab019"
         )
     ]
 )
