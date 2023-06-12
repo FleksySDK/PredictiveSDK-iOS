@@ -18,7 +18,6 @@ xcuserdata
 *.moved-aside
 DerivedData
 *.xcuserstate
-Package.resolved
 
 *.qbs.user
 *.qbs.user.*
