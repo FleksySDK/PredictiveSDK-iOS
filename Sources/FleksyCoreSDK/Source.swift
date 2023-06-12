@@ -2,4 +2,4 @@
 //  Source.swift
 //
 
-@_exported import FleksyLibModule
+@_exported import PredictiveSDK
