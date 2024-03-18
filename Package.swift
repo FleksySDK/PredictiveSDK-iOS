@@ -1,13 +1,14 @@
-// swift-tools-version:5.7
+// swift-tools-version: 5.9
 
 import PackageDescription
 
 let package = Package(
     name: "PredictiveSDK",
     platforms: [
-        .iOS(.v12),
+        .iOS(.v13),
         .watchOS(.v8),
-        .macCatalyst(.v14)
+        .macCatalyst(.v14),
+        .visionOS(.v1)
     ],
     products: [
         .library(
@@ -17,11 +18,11 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/FleksySDK/FleksyEngine-iOS",
-            exact: "3.12.2"
+            exact: Version(3, 16, 0)
         ),
         .package(
             url: "https://github.com/FleksySDK/iOS-CoreServices",
-            exact: "1.6.1"
+            exact: Version(1, 14, 0)
         ),
     ],
     targets: [
@@ -35,8 +36,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "FleksyLibModule",
-            url: "https://spm.fleksy.com/FleksyLibModule/v1.4.0/FleksyLibModule.xcframework.zip",
-            checksum: "d6688f70d09ccc549e3eedf59f5896cd52bee1d1ff85d679a1980263ebfbc422"
+            url: "https://spm.fleksy.com/FleksyLibModule/v1.6.0/FleksyLibModule.xcframework.zip",
+            checksum: "d2a0e54518626f2096e8e9062aaf834dca787ad26416fc9786ef4c627ee031ff"
         ),
         .target(
             name: "FleksyCoreSDK",
