@@ -18,7 +18,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/FleksySDK/FleksyEngine-iOS",
-            exact: Version(3, 16, 0)
+            exact: Version(3, 18, 1)
         ),
         .package(
             url: "https://github.com/FleksySDK/iOS-CoreServices",
@@ -36,8 +36,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "FleksyLibModule",
-            url: "https://spm.fleksy.com/FleksyLibModule/v1.6.0/FleksyLibModule.xcframework.zip",
-            checksum: "d2a0e54518626f2096e8e9062aaf834dca787ad26416fc9786ef4c627ee031ff"
+            url: "https://spm.fleksy.com/FleksyLibModule/v1.7.0/FleksyLibModule.xcframework.zip",
+            checksum: "d84d5f333a0bc0c9fae75b8068f76e2c941fe50cb0abd4aa6d7972906449324b"
         ),
         .target(
             name: "FleksyCoreSDK",
